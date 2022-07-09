@@ -1,0 +1,23 @@
+.header{
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.logo{
+  color: white;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+}
+.NavLink{
+text-decoration: none;
+  color:white ;
+}
+
