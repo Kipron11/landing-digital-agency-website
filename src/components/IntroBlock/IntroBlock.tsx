@@ -21,7 +21,7 @@ const IntroBlock = () => (
       />
     </div>
     <div className="col-md-6">
-      <img src="../../assets/img/IntroImg.png" alt="IntroImg" />
+      <div className={styles.introIMG} />
     </div>
   </section>
 );

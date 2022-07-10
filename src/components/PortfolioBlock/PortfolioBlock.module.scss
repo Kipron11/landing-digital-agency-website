@@ -1,0 +1,19 @@
+.image1,.image2,.image3{
+  box-shadow: 0 0 5px 12px #1E1E20;
+  border: 1px solid #1E1E20 ;
+  border-radius: 12px;
+  width: 336px;
+  height: 253px;
+}
+
+.image1{
+  background-image: url("../../assets/img/Portfolio1.png");
+}
+
+.image2{
+  background-image: url("../../assets/img/Portfolio2.png");
+}
+
+.image3{
+  background-image: url("../../assets/img/Portfolio3.png");
+}

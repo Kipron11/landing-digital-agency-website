@@ -11,7 +11,7 @@ const Header = () => {
     <section className={style.header}>
       <Router>
         <div className={style.logo}>
-          <img src="../../assets/img/Logo.png" alt="Logo" width="40" />
+          <div className={style.logoImg} />
           Enver
         </div>
         <div className={style.navigation}>

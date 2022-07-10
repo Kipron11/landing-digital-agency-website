@@ -1,0 +1,33 @@
+.cardForm{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.span{
+  text-overflow: clip;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 150px;
+}
+
+p{
+  position: relative;
+  text-overflow: clip;
+  width: 200px;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -250px;
+  opacity: 30%;
+}

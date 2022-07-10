@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 @import "assets/styles/flexboxgrid.css";
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App{
 background-color: #19191B;
-height: 100vh;
+height: 100%;
 width: 100%;
   color: white;}
+
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 74px;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+}
