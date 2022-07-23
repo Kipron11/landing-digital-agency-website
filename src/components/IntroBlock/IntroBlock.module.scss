@@ -1,5 +1,31 @@
-.introIMG{
+.IntroBlock{
+padding: 0 0 20px 0;
+}
+
+.IntroIMG{
   background-image: url("../../assets/img/IntroImg.png");
   width: 700px;
   height: 733px;
+}
+.IntroP{
+  letter-spacing: -0.656526px;
+  font-size: 21px;
+  line-height: 39px;
+  text-align: left;
+  width: 536px;
+  height: 117px;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+}
+.IntroH1{
+  margin-top: 30px;
+  line-height: 84px;
+  text-align: left;
+}
+.IntroButton_div{
+  margin-top: 70px;
+  display: flex;
+}
+.IntroIMG_div{
+  margin-top: -30px;
 }

@@ -4,8 +4,8 @@ import styles from './VideoBlock.module.scss';
 const VideoBlock = () => (
   <section>
     <div className="row center-md">
-      <h2 className="col-md-6">Why Enver Is The Best Choice?</h2>
-      <p className="col-md-6">Watch this one minute video so you understand why you should use our services!</p>
+      <h2 className={`col-md-6 ${styles.VideoBlock_H2}`}>Why Enver Is The Best Choice?</h2>
+      <p className={`col-md-6 ${styles.VideoBlock_P}`}>Watch this one minute video so you understand why you should use our services!</p>
     </div>
     <div className="row center-md">
       {/* <iframe */}

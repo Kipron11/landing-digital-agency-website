@@ -40,7 +40,7 @@ const ServicesBlock = () => (
     <div className="row center-md">
       <h2>The Service We Provide For You</h2>
     </div>
-    <div className="row center-md">
+    <div className={`row center-md ${styles.Cards_div}`}>
       <div className={`col-md-12 center-md ${styles.Cards}`}>
         {servicesInfo.map(({ title, color, text }) => (
           <Card color={color} title={title} text={text} />
